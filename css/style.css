@@ -1,40 +1,37 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Georgia';
+  font-family: Georgia, serif;
   color: #1a1a1a;
   background-color: #f5f2eb;
-  line-height: 1;
+  line-height: 1.6;
 }
 
 header {
   background-color: #14213d;
-  color: #ffffff;
-  padding: 1.5rem 2rem;
+  color: white;
+  padding: 20px;
   border-bottom: 4px solid #fca311;
 }
 
 header h1 {
-  margin: 0 0 0.5rem 0;
+  margin: 0;
   font-size: 2rem;
   font-family: 'Trebuchet MS', sans-serif;
 }
 
 nav a {
-  display: inline-block;
-  color: #ffffff;
+  color: white;
+  text-decoration: none;
   font-family: 'Trebuchet MS', sans-serif;
   font-weight: bold;
-  padding: 0.5em 1em;
-  margin-right: 0.5em;
-  border-radius: 6px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  padding: 8px 16px;
+  margin-right: 8px;
 }
 
 nav a:hover {
   background-color: rgb(252, 163, 17);
   color: #14213d;
-  transform: translateY(-2px);
 }
 
 nav a.active {
@@ -45,142 +42,88 @@ nav a.active {
 main {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2rem 5%;
+  padding: 20px 5%;
 }
 
 main h2 {
   color: #14213d;
   border-bottom: 2px solid #fca311;
-  padding-bottom: 0.3em;
 }
 
 main img {
   max-width: 100%;
-  height: auto;
   border: 3px solid #14213d;
-  margin: 1em 1em 1em 0;
-}
-
-figure {
-  margin: 2em 0;
+  margin: 10px;
 }
 
 figcaption {
   font-style: italic;
-  font-size: 0.9rem;
-  color: #555555;
-  margin-top: 0.5em;
+  color: #555;
 }
 
 blockquote {
   border-left: 4px solid #fca311;
-  margin: 1.5em 0;
-  padding: 0.5em 1.5em;
-  font-style: italic;
+  padding: 10px 20px;
   background-color: #ece7db;
-}
-
-blockquote cite {
-  display: block;
-  margin-top: 0.5em;
-  font-style: normal;
-  font-weight: bold;
-  color: #14213d;
-  text-align: right;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1.5em 0;
-}
-
-caption {
-  font-weight: bold;
-  margin-bottom: 0.5em;
-  text-align: left;
 }
 
 th, td {
-  border: 1px solid #cccccc;
-  padding: 0.6em 0.8em;
+  border: 1px solid #ccc;
+  padding: 10px;
   text-align: left;
 }
 
 thead th {
   background-color: #14213d;
-  color: #ffffff;
+  color: white;
 }
 
 tbody tr:nth-child(even) {
   background-color: #ece7db;
 }
 
-tfoot td {
-  font-weight: bold;
-  background-color: #fca311;
-  color: #14213d;
-}
-
 form {
-  background-color: #ffffff;
-  padding: 1.5em;
-  border: 1px solid #dddddd;
-  border-radius: 8px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
   max-width: 500px;
 }
 
 fieldset {
   border: 1px solid #ccc;
-  border-radius: 6px;
-  margin-bottom: 1.5em;
-  padding: 1em;
-}
-
-legend {
-  font-weight: bold;
-  color: #14213d;
-  padding: 0 0.5em;
+  margin-bottom: 20px;
+  padding: 15px;
 }
 
 label {
   display: block;
-  margin-top: 0.8em;
-  margin-bottom: 0.2em;
+  margin-top: 10px;
   font-weight: bold;
 }
 
 input, textarea {
   width: 100%;
-  padding: 0.5em;
-  border: 1px solid #bbbbbb;
-  border-radius: 4px;
-  font-family: inherit;
-  box-sizing: border-box;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  width: auto;
-  margin-right: 0.5em;
+  padding: 8px;
+  border: 1px solid #bbb;
 }
 
 input:focus,
 textarea:focus {
-  outline: none;
   border-color: #fca311;
-  box-shadow: 0 0 5px rgba(252, 163, 17, 0.6);
+  outline: 2px solid #fca311;
 }
 
 button {
-  margin-top: 1em;
+  margin-top: 15px;
   background-color: #14213d;
-  color: #ffffff;
+  color: white;
   border: none;
-  padding: 0.7em 1.5em;
-  border-radius: 6px;
-  font-weight: bold;
-  cursor: pointer;
+  padding: 10px 20px;
 }
 
 button:hover {
@@ -190,10 +133,9 @@ button:hover {
 
 footer {
   text-align: center;
-  padding: 1em;
+  padding: 15px;
   background-color: #14213d;
-  color: #ffffff;
-  font-size: 0.9rem;
+  color: white;
 }
 
 #hero-image {
