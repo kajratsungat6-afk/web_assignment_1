@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>The Mindset of a Champion</h1>
+    <nav>
+      <a href="index.html">Main</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contacts</a>
+    </nav>
+  </header>
+  <main>
+    <form action="#" method="post">
+      <fieldset>
+          <legend>Personal information</legend>
+
+          <label for="fullname">Full name:</label>
+          <input type="text" id="fullname" name="fullname" placeholder="e.g. Kairat Sungat" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="birthdate">Date of birth:</label>
+          <input type="date" id="birthdate" name="birthdate">
+
+          <label for="favcolor">Favorite color:</label>
+          <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        </fieldset>
+
+        <fieldset>
+          <legend>Your message</legend>
+
+          <label for="rating">Rate this website (1–10):</label>
+          <input type="number" id="rating" name="rating" min="1" max="10">
+
+          <label for="message">Your message:</label>
+          <textarea id="message" name="message" maxlength="300" rows="5" placeholder="Write your comment here..."></textarea>
+
+          <p>Are you subscribed to updates?</p>
+          <input type="checkbox" id="subscribe" name="subscribe">
+          <label for="subscribe">Yes, send me updates</label>
+
+          <fieldset>
+            <legend>How did you hear about this site?</legend>
+
+            <input type="radio" id="source-friend" name="source" value="friend">
+            <label for="source-friend">From a friend</label>
+
+            <input type="radio" id="source-social" name="source" value="social">
+            <label for="source-social">Social media</label>
+
+            <input type="radio" id="source-search" name="source" value="search">
+            <label for="source-search">Search engine</label>
+          </fieldset>
+        </fieldset>
+        <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Kairat Sungat, IT-2511, 2026</p>
+  </footer>
+</body>
+</html>
